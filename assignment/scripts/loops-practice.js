@@ -63,12 +63,11 @@ for( stars of stars){
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-console.log('Some stars using while:');
+//console.log('Some stars using while:');
 
-let i = 0;
-let max = 5;
-while( i < max ){
-  console.log(stars[i]);
+i=0;
+while( i< stars.length){
+  console.log('some stars using while:', stars[i]);
   i++;
 }
 
