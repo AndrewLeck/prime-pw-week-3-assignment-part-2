@@ -70,5 +70,20 @@ while( i < max ){
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 
+i = 0;
+max = 6;
+while( i < max ){
+  console.log(i);
+  i++;
+}
+
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+
+i = 10;
+low = 4;
+while( i > low){
+  console.log(i);
+  i--;
+}
